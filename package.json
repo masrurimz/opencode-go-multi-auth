@@ -1,13 +1,12 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
   "name": "opencode-go-multi-auth",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Multi-account API key rotation for OpenCode Go subscription",
   "type": "module",
   "bin": {
     "go-multi-auth": "./dist/cli.js"
   },
-
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
